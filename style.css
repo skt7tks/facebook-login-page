@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(240, 241, 246);
+}
+
+.text-container h1{
+    color: blue;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.text-container h2{
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.text-container p{
+    color: grey;
+}
+
+.text-container{
+    padding-left: 235px;
+    padding-top: 80px;
+}
+
+.login-container{
+    border: 1px solid rgb(247, 238, 238);
+    width: 25%;
+    min-height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px lightblue;
+    margin-left: 300px;
+    margin-top: 130px;
+}
+
+.username-container input{
+    margin-top: 15px;
+}
+
+.login-container input{
+    border-radius: 5px;
+    border: 1px solid rgb(222, 216, 216);
+    width: 85%;
+    align-items: center;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.display-main-container{
+    display: flex;
+}
+
+.log-in-button{
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(41, 5, 221);
+    width: 85%;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 30px;
+}
+
+.log-in-button:hover{
+    background-color: rgb(72, 72, 205);
+    cursor: pointer;
+}
+
+.button-dec{
+    text-decoration: none;
+    color:rgb(250, 246, 246);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.password-reset{
+    color: blue;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.password-reset:hover{
+    text-decoration: underline;
+}
+
+.hr-style{
+  border: none;
+  height: 1px;
+  background-color: rgb(235, 229, 229);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.new-account{
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(55, 221, 5);
+    color:rgb(250, 246, 246);
+    font-size: larger;
+    font-weight: bolder;
+    width: 85%;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.new-account:hover{
+    background-color: rgb(3, 146, 29);
+    cursor: pointer;
+}
+
+.logo-facebook{
+    width: 90%;
+    height: 250px;
+}
+
+.page-create{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+}
+
+.page-create:hover{
+    text-decoration: underline;
+}
+
+.page-text{
+    font-size: medium;
+    color: black;
+}
+
